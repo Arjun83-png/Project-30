@@ -28,6 +28,7 @@ class Box{
         this.Visibility = this.Visibility - 5;
         tint(255, this.Visibility);
         rect(this.body.position.x, this.body.position.y, 40, 30);
+        pop();
       }
         
       }

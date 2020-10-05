@@ -25,25 +25,25 @@ ground = new Ground(500, 400, 250, 10);
 
 ground2 = new Ground(900, 300, 200, 10);
 
-box6 = new Box(590, 275, 30, 40);
-box7 = new Box(560, 275, 30, 40);
-box8 = new Box(530, 275, 30, 40);
-box9 = new Box(500, 275, 30, 40);
-box10 = new Box(470, 275, 30, 40);
-box11 = new Box(440, 275, 30, 40);
-box12 = new Box(410, 275, 30, 40);
+box6 = new Box(590, 360, 30, 40);
+box7 = new Box(560, 360, 30, 40);
+box8 = new Box(530, 360, 30, 40);
+box9 = new Box(500, 360, 30, 40);
+box10 = new Box(470, 360, 30, 40);
+box11 = new Box(440, 360, 30, 40);
+box12 = new Box(410, 360, 30, 40);
 
-box1 = new Box(530, 135, 30, 40);
-box2 = new Box(560, 135, 30, 40);
-box3 = new Box(500, 135, 30, 40);
-box4 = new Box(470, 135, 30, 40);
-box5 = new Box(440, 135, 30, 40);
+box1 = new Box(530, 350, 30, 40);
+box2 = new Box(560, 350, 30, 40);
+box3 = new Box(500, 350, 30, 40);
+box4 = new Box(470, 350, 30, 40);
+box5 = new Box(440, 350, 30, 40);
 
-box13 = new Box(530, -5, 30, 40);
-box14 = new Box(500, -5, 30, 40);
-box15 = new Box(470, -5, 30, 40);
+box13 = new Box(530, 340, 30, 40);
+box14 = new Box(500, 340, 30, 40);
+box15 = new Box(470, 340, 30, 40);
 
-box16 = new Box(500, -105, 30, 40);
+box16 = new Box(500, 330, 30, 40);
 
 box17 = new Box(960, 275, 30, 40);
 box18 = new Box(930, 275, 30, 40);
@@ -51,11 +51,11 @@ box19 = new Box(900, 275, 30, 40);
 box20 = new Box(870, 275, 30, 40);
 box21 = new Box(840, 275, 30, 40);
 
-box22 = new Box(930, 135, 30, 40);
-box23 = new Box(900, 135, 30, 40);
-box24 = new Box(870, 135, 30, 40);
+box22 = new Box(930, 250, 30, 40);
+box23 = new Box(900, 250, 30, 40);
+box24 = new Box(870, 250, 30, 40);
 
-box25 = new Box(900, -5, 30, 40);
+box25 = new Box(900, 240, 30, 40);
 
 polygon = Bodies.circle(150, 300, 20);
 World.add(world, polygon);
@@ -76,8 +76,6 @@ function draw() {
 
   imageMode(CENTER)
   image(polygon_img, polygon.position.x, polygon.position.y, 40, 40);
-
-  
 
   ground.display();
   ground2.display();
